@@ -1,0 +1,59 @@
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 100%;
+        margin-bottom: 5em;    
+    } 
+
+    img {
+        display: flex;
+        margin: auto;
+        width: 100%;
+    }   
+
+    .label-wrap {
+        margin-top: 2em;        
+        width: 100%;
+    }
+
+    .btn-start {
+        display: flex;
+        margin: auto;       
+        align-items: center; 
+        justify-content: center;
+        width: 100%;        
+        padding: 0.3em;
+        border-radius: 0px;
+        border-left: none;
+        border-right: none;
+                
+    }
+
+    .caveat {        
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wrap {
+        width: 100%;
+        margin-bottom: 5em;    
+    } 
+
+    img {    
+        width: 100px;
+        height: 100px;
+    }   
+
+    .label-wrap {
+        margin-top: 2em;
+    }
+
+    .btn-start {
+        padding: 0.5em;
+        margin: 1em;        
+    }
+
+    .caveat {        
+        font-size: 20px;
+    }
+}

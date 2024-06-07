@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./css/style.css">  
+    <link rel="stylesheet" media="screen" href="./css/media.css">   
+    <title>9.8. Практическое задание. Галерея с картинками.</title>
+    <!-- вариант с fetch, then, then -->
+    <!-- <script defer src="./js/fetch-then-then.js"></script>  -->
+    <!-- вариант с async, await -->
+    <script defer src="./js/async-await.js"></script> 
+</head>
+<body>     
+
+    <header>       
+        
+    </header>
+    
+    <main>
+        <!-- loader -->
+        <div class="loader-container">
+            <div class="loader">
+
+            </div>
+
+        </div> 
+        <!-- скрипт для loader -->
+        <script>
+            function loader(){
+                document.querySelector('.loader-container').
+                classList.add('active');
+            }
+            function hideLoader(){
+                setTimeout(loader, 5000);
+            }
+
+            hideLoader();
+        </script>
+
+        <div class="label-wrap">
+            <div class="caveat">
+                ГАЛЕРЕЯ
+            </div>
+            <!-- кнопка для загрузки картинок -->
+            <button class="caveat btn-start white" >
+                ЗАГРУЗИТЬ КАРТИНКИ
+            </button>
+        </div>
+        
+        <div class="wrap">
+        </div>
+
+    </main>
+
+     
+    
+
+</body>
+</html>
